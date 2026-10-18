@@ -1,0 +1,52 @@
+# Environnements virtuels
+venv/
+env/
+ENV/
+
+# Python / Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+datasets/*
+!datasets/.gitkeep
+
+# Jupyter Notebook / Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Fichiers de configuration sensibles ou identifiants locaux
+config/mastodon_config.json
+*.env
+.env.*
+
+# Données locales et volumes Docker
+data/postgres_data/
+*.db
+*.sqlite
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

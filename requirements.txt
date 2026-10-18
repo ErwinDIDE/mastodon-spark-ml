@@ -1,0 +1,8 @@
+Mastodon.py>=1.8.0
+kafka-python>=2.0.2
+pyspark>=3.3.0
+psycopg2-binary>=2.9.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+SQLAlchemy>=1.4.0
